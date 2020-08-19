@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <map mapPath="XML Data Files/GameAI.xml"/>
+  <tanks tanksPath="XML Data Files/TankData.xml"/>
+  <score scorePath="Scores/TestScores.txt"/>
+</data>

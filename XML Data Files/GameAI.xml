@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="GameAITileset" tilewidth="32" tileheight="32">
+   <image source="Images/BackgroundTiles.png" width="32" height="672"/>
+ </tileset>
+ <layer name="BackgroundLayer" width="30" height="20">
+  <data>
+    <!--Row 1-->
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+
+    <!--Row 2-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="1"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="13"/>
+    <tile gid="11"/>
+    <tile gid="13"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="2"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 3-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="16"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 4-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 5-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 6-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 7-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="4"/>
+    <tile gid="13"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="13"/>
+    <tile gid="11"/>
+    <tile gid="3"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="16"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 8-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 9-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="16"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 10-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 11-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 12-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="12"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="14"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 13-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="12"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="14"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 14-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="1"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="13"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="14"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 15-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="16"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 16-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 17-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 18-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="10"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="1"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="3"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 19-->
+    <tile gid="21"/>
+    <tile gid="9"/>
+    <tile gid="4"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="15"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="11"/>
+    <tile gid="3"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="9"/>
+    <tile gid="21"/>
+
+    <!--Row 20-->
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+    <tile gid="21"/>
+  </data>
+ </layer>
+  <objectgroup name="ObjectLayer" width="30" height="20">
+    <object name="PickUp" x="130" y="40" width="127" height="127">
+      <properties>
+        <property name="Type" value="7"/>
+      </properties>
+    </object>
+    <object name="PickUp" x="552" y="220" width="127" height="127">
+      <properties>
+        <property name="Type" value="8"/>
+      </properties>
+    </object>
+    <object name="PickUp" x="825" y="552" width="127" height="127">
+      <properties>
+        <property name="Type" value="9"/>
+      </properties>
+    </object>
+
+    <!--Borders-->
+    <object name="Obstacle" x="0" y="0" width="960" height="32">
+      <properties>
+        <property name="ID" value="7"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="0" y="608" width="960" height="32">
+      <properties>
+        <property name="ID" value="7"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="0" y="0" width="32" height="640">
+      <properties>
+        <property name="ID" value="6"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="928" y="0" width="32" height="640">
+      <properties>
+        <property name="ID" value="6"/>
+      </properties>
+    </object>
+
+    <!--Buildings-->
+    <object name="Obstacle" x="102" y="70" width="127" height="127">
+      <properties>
+        <property name="ID" value="1"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="326" y="70" width="127" height="127">
+      <properties>
+        <property name="ID" value="2"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="141" y="230" width="253" height="125">
+      <properties>
+        <property name="ID" value="3"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="583" y="145" width="126" height="286">
+      <properties>
+        <property name="ID" value="4"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="743" y="145" width="126" height="286">
+      <properties>
+        <property name="ID" value="5"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="262" y="454" width="127" height="127">
+      <properties>
+        <property name="ID" value="2"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="102" y="454" width="127" height="127">
+      <properties>
+        <property name="ID" value="1"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="583" y="423" width="127" height="127">
+      <properties>
+        <property name="ID" value="1"/>
+      </properties>
+    </object>
+    <object name="Obstacle" x="743" y="423" width="127" height="127">
+      <properties>
+        <property name="ID" value="2"/>
+      </properties>
+    </object>
+  </objectgroup>
+ <objectgroup name="WaypointLayer" width="30" height="20">
+  <object name="Waypoint" x="80" y="48" width="61" height="5">
+   <properties>
+    <property name="Connections" value="1,4"/>
+    <property name="ID" value="0"/>
+   </properties>
+  </object>
+   <object name="Waypoint" x="240" y="48" width="61" height="5">
+     <properties>
+       <property name="Connections" value="0,2,6"/>
+       <property name="ID" value="1"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="304" y="48" width="61" height="5">
+     <properties>
+       <property name="Connections" value="1,3,7"/>
+       <property name="ID" value="2"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="464" y="48" width="61" height="5">
+     <properties>
+       <property name="Connections" value="2,9"/>
+       <property name="ID" value="3"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="80" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="0,5"/>
+       <property name="ID" value="4"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="112" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="4,6,10"/>
+       <property name="ID" value="5"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="240" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="1,5,7"/>
+       <property name="ID" value="6"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="304" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="2,6,8"/>
+       <property name="ID" value="7"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="400" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="7,9,11"/>
+       <property name="ID" value="8"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="464" y="208" width="61" height="5">
+     <properties>
+       <property name="Connections" value="3,8"/>
+       <property name="ID" value="9"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="112" y="368" width="61" height="5">
+     <properties>
+       <property name="Connections" value="5,11,13"/>
+       <property name="ID" value="10"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="400" y="368" width="61" height="5">
+     <properties>
+       <property name="Connections" value="8,10,15"/>
+       <property name="ID" value="11"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="80" y="432" width="61" height="5">
+     <properties>
+       <property name="Connections" value="13,16"/>
+       <property name="ID" value="12"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="112" y="432" width="61" height="5">
+     <properties>
+       <property name="Connections" value="10,12,14"/>
+       <property name="ID" value="13"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="240" y="432" width="61" height="5">
+     <properties>
+       <property name="Connections" value="13,15,17"/>
+       <property name="ID" value="14"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="400" y="432" width="61" height="5">
+     <properties>
+       <property name="Connections" value="11,14,23"/>
+       <property name="ID" value="15"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="80" y="592" width="61" height="5">
+     <properties>
+       <property name="Connections" value="12,17"/>
+       <property name="ID" value="16"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="240" y="592" width="61" height="5">
+     <properties>
+       <property name="Connections" value="14,16,18"/>
+       <property name="ID" value="17"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="400" y="592" width="61" height="5">
+     <properties>
+       <property name="Connections" value="17,19"/>
+       <property name="ID" value="18"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="400" y="560" width="61" height="5">
+     <properties>
+       <property name="Connections" value="18,20"/>
+       <property name="ID" value="19"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="560" y="560" width="61" height="5">
+     <properties>
+       <property name="Connections" value="19,21,23"/>
+       <property name="ID" value="20"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="720" y="560" width="61" height="5">
+     <properties>
+       <property name="Connections" value="20,22,30"/>
+       <property name="ID" value="21"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="880" y="560" width="61" height="5">
+     <properties>
+       <property name="Connections" value="21,26"/>
+       <property name="ID" value="22"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="560" y="432" width="61" height="5">
+     <properties>
+       <property name="Connections" value="15,20,24"/>
+       <property name="ID" value="23"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="560" y="400" width="61" height="5">
+     <properties>
+       <property name="Connections" value="23,25,27"/>
+       <property name="ID" value="24"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="720" y="400" width="61" height="5">
+     <properties>
+       <property name="Connections" value="24,26,28"/>
+       <property name="ID" value="25"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="880" y="400" width="61" height="5">
+     <properties>
+       <property name="Connections" value="22,25,29"/>
+       <property name="ID" value="26"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="560" y="210" width="61" height="5">
+     <properties>
+       <property name="Connections" value="24"/>
+       <property name="ID" value="27"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="720" y="82" width="61" height="5">
+     <properties>
+       <property name="Connections" value="25"/>
+       <property name="ID" value="28"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="880" y="276" width="61" height="5">
+     <properties>
+       <property name="Connections" value="26"/>
+       <property name="ID" value="29"/>
+     </properties>
+   </object>
+   <object name="Waypoint" x="720" y="466" width="61" height="5">
+     <properties>
+       <property name="Connections" value="21"/>
+       <property name="ID" value="30"/>
+     </properties>
+   </object>
+ </objectgroup>
+</map>
